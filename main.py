@@ -1,4 +1,7 @@
-import pygame
-pygame.display.set_mode((500,500))
+import time
+
+import view
+
 while True:
-    pygame.display.flip()
+    time.sleep(1/120)
+    view.draw()
