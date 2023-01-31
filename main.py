@@ -1,8 +1,8 @@
 import time
 
 import controller
-import modul
 import view
+import modul
 
 while True:
     time.sleep(1/120)
